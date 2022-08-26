@@ -14,5 +14,6 @@ public class Course {
     private String title;
     private double price;
     private int duration;
+    private int period;
 
 }

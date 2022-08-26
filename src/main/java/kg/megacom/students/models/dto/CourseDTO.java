@@ -14,5 +14,6 @@ public class CourseDTO {
     private String title;
     private double price;
     private String duration;
+    private int period;
 
 }

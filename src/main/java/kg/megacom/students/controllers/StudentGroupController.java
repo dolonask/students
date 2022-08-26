@@ -27,4 +27,9 @@ public class StudentGroupController {
                                              @RequestParam Long studentId, @RequestParam Long groupId){
         return studentGroupService.create(startDate,endDate,studentId,groupId);
     }
+
+    @PostMapping("/add")
+    public StudentGroups append(@RequestParam Long studentId, @RequestParam Long groupId){
+        return studentGroupService.append(studentId, groupId);
+    }
 }

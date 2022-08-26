@@ -7,4 +7,6 @@ public interface GroupService {
     Group createGroup(Group group);
 
     Group create(GroupRequest groupRequest);
+
+    Group findById(Long id);
 }
